@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<title>FETCH API - SandBox</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="display-4 mb-4 mt-4">Fetch API Sandbox</h1>
+		<div class="d-flex">
+			<button class="btn btn-secondary mr-4" id="getText">Get Text</button>
+			<button class="btn btn-success mr-4" id="getJson">Get JSON</button>
+			<button class="btn btn-warning mr-4" id="getApi">Get API data</button>
+		</div> <!--BUTTON DIV END-->
+		<hr>
+
+		<!-- div for printing the text output -->
+		<div id="output"></div>
+
+		<!-- Form for adding new Post -->
+		<form id="addPost">
+			<div class='form-group'>
+				<input type="text" id='title' class='form-control' placeholder="Title here">
+			</div>
+			<div class='form-group'>
+				<textarea id="body" class='form-control' placeholder="Body here"></textarea>
+			</div>
+			<input type="submit" class='btn btn-secondary' value="Submit">
+		</form>
+
+	</div> <!-- container div end-->
+	<!-- JavaScript file reference -->
+	<script src="main.js"></script>
+</body>
+</html>
